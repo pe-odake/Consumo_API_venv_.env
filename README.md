@@ -1,4 +1,4 @@
-# 💸 Projeto de Cotação de Moedas com API
+# 💸 Projeto de Cotação de Moedas com API, venv, .env
 
 Este é um projeto simples de consulta de cotação de moedas, feito como exercício prático para fixação dos conceitos de:
 
@@ -23,20 +23,20 @@ Este é um projeto simples de consulta de cotação de moedas, feito como exerc�
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/cotacao_api.git
-cd cotacao_api
+git clone https://github.com/pe-odake/Consumo_API_venv_env
+<!-- cd cotacao_api -->
 ```
 
 ### 2. Crie e ative o ambiente virtual
 
 ```bash
 # Linux/macOS
-python3 -m venv venv_seunome
-source venv_seunome/bin/activate
+python3 -m venv venv
+source venv/bin/activate
 
 # Windows
-python -m venv venv_seunome
-venv_seunome\Scripts\activate
+python -m venv venv
+venv\Scripts\activate
 ```
 
 ### 3. Instale as dependências
@@ -63,7 +63,7 @@ cp .env.example .env
 ### 5. Execute o script
 
 ```bash
-python consulta.py
+py .\cotacao_api\consulta.py
 ```
 
 ---
@@ -71,13 +71,13 @@ python consulta.py
 ## 📁 Estrutura Esperada
 
 ```
-cotacao_api/
-├── consulta.py
+Consumo_API_venv_env/
+├── cotacao_api/
+  ├── consulta.py
 ├── .env              ← (não enviado ao GitHub)
-├── .env.example      ← exemplo de configuração
 ├── .gitignore
 ├── requirements.txt
-└── venv_seunome/     ← (não enviado ao GitHub)
+└── venv/     ← (não enviado ao GitHub)
 ```
 
 ---
@@ -112,13 +112,3 @@ pip install -r requirements.txt
 * Não se esqueça de recriar o arquivo `.env` com sua chave!
 
 ---
-
-## ✅ Entregáveis
-
-* `consulta.py` funcionando com requisição à API.
-* `.env.example` com a linha `API_KEY=`.
-* `requirements.txt` com as bibliotecas usadas.
-* `.gitignore` corretamente configurado.
-* `README.md` com todos os passos necessários.
-
-
