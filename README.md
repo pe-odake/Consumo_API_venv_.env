@@ -24,7 +24,6 @@ Este é um projeto simples de consulta de cotação de moedas, feito como exerc�
 
 ```bash
 git clone https://github.com/pe-odake/Consumo_API_venv_env
-<!-- cd cotacao_api -->
 ```
 
 ### 2. Crie e ative o ambiente virtual
